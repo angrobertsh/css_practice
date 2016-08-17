@@ -1,0 +1,31 @@
+/* PHASE 5: Cats */
+.content-header {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  right: 50px;
+  bottom: 40px;
+  padding: 20px;
+  border-radius: 15px;
+  background: white;
+  font-weight: 700;
+  font-size: 24;
+  border: 2px solid black;
+}
+
+.button:hover {
+  background: #ccc;
+}
+
+.content-header #username {
+  line-height: 1;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  bottom: 100px;
+  left: 250px;
+  text-shadow: 2px 2px #000;
+}
